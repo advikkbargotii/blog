@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="navbar-container"></div>
+    
+    <main class="main-content">
+        <div class="container">
+            <section class="hero-section">
+                <h1 class="hero-title">Welcome to My Blog</h1>
+                <p class="hero-subtitle">Thoughts, ideas, and stories worth sharing</p>
+            </section>
+            
+            <div class="content-wrapper">
+                <div class="blog-posts" id="blog-posts">
+                    <!-- Blog posts will be dynamically loaded here from markdown files -->
+                    <div class="no-posts-message">
+                        <p>No blog posts yet. Check back soon for new content!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Blog post viewer modal -->
+    <div id="post-viewer" class="post-viewer">
+        <div class="post-viewer-content">
+            <button class="close-button" id="close-post">&times;</button>
+            <div class="post-content" id="post-content"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="navbar.js"></script>
+    <script src="script.js"></script>
+    <script src="blog.js"></script>
+</body>
+</html>
