@@ -1,5 +1,13 @@
 [
   {
+    "id": "welcome-to-my-second-blog-post",
+    "title": "Welcome to My Second Blog Post!",
+    "excerpt": "It's been about three weeks since my last post (school started, and everything flipped upside down). Not much has happened personally, but on the career front, there's been a lot of movement: we're officially in peak hiring season—especially for internships.",
+    "date": "2025-09-04",
+    "category": "Career",
+    "filename": "Welcome-to-My-Second-Blog-Post.md"
+  },
+  {
     "id": "ai-is-no-longer-the-future",
     "title": "AI Is No Longer the Future — It's the Now",
     "excerpt": "Everyone says, \"AI is the future!\" I disagree. AI was the future — now it's the present, and it's here to stay. My journey grinding for big tech jobs and what I've learned about ATS, OAs, and building a focused skill set.",
