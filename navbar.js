@@ -9,7 +9,7 @@
         navItems: [
             { text: 'About', href: 'https://www.advikbargoti.dev' },
             { text: 'Archives', href: '#' },
-            { text: 'Contact', href: '#' }
+            { text: 'Contact', href: 'mailto:advikbargoti@arizona.edu?subject=Contact from advik.blog&body=Hi Advik,%0D%0A%0D%0AI\'d like to get in touch with you.%0D%0A%0D%0AMessage:%0D%0A%0D%0ABest regards,' }
         ]
     };
     
